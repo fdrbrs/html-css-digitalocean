@@ -61,3 +61,93 @@ footer{
     height: 520px;
     background-color:#031C4E;
 }
+
+/* Common Rules */
+
+.container{
+    margin: auto;
+    width: 70%;
+}
+
+
+/* Header */
+
+/* Nav Bar */
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav>.container{
+    display: flex;
+    align-items: center;
+}
+
+/* Nav Bar Logo */
+nav>div>.col-lg-2>img{
+    width: 150px;
+}
+
+/* Nav Bar lists */
+
+nav>div>.col-lg-5{
+    text-align: right;
+}
+
+nav>div>.col-lg-5>ul{
+    list-style: none;
+}
+nav>div>.col-lg-5>ul>li{
+    display: inline-block;
+    margin: 0 5px
+}
+
+nav>div>.col-lg-5>ul>li>a{
+    text-decoration: none;
+    color: #172E5C;
+}
+
+.signup_button{
+    color: #2285FD;
+    border: 1px solid #2285FD;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Jumbotron */
+
+#jumbotron{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+#jumbotron>.container>.col-lg-7{
+    color: white;
+}
+
+#jumbotron>.container>.col-lg-7 h1{
+    font-size: 4rem;
+    width: 95%;
+}
+
+#jumbotron>.container>.col-lg-7 p{
+    width: 95%;
+}
+
+.sign_box{
+    background-color: #ffff;
+    height: 365px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sign_box>input, .sign_box>a{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
