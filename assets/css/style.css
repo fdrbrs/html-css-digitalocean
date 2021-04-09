@@ -1,0 +1,63 @@
+/* Debug Rules */
+
+    /* Header */
+header {
+    height: 560px;
+}
+
+nav {
+    height: 65px;
+    background-color: white;
+}
+
+#jumbotron {
+    height: 495px;
+    background-color: #004AFF;
+}
+
+    /* Main */
+main{
+    height: 3585px;
+}
+
+#customers {
+    height: 270px;
+    background-color: #F3F5F9;
+}
+
+#deploy {
+    height: 700px;
+    background-color: #ffff;
+}
+
+#designed{
+    height: 780px;
+    background-color: #F3F5F9;
+}
+
+#features{
+    height: 440px;
+    background-color: #ffff;
+}
+
+#servers{
+    height: 420px;
+    background-color:#0034B1;
+}
+
+#love_story{
+    height: 720px;
+    background-color: #F3F5F9;
+}
+
+#get_started{
+    height:255px;
+    background-color:#0034B1;
+}
+
+    /* Footer */
+
+footer{
+    height: 520px;
+    background-color:#031C4E;
+}
