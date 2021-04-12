@@ -67,6 +67,11 @@ footer{
 .container{
     margin: auto;
     width: 70%;
+    font-family: ;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -137,17 +142,117 @@ nav>div>.col-lg-5>ul>li>a{
 
 #jumbotron>.container>.col-lg-7 p{
     width: 95%;
+    color: #BBCDFF;
+    font-size: 1.2rem;
+    line-height: 25px;
 }
+
+/* Sign Box  */
 
 .sign_box{
     background-color: #ffff;
     height: 365px;
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign_box>*{
+    margin: 5px 0;
 }
 
 .sign_box>input, .sign_box>a{
     display: block;
     width: 90%;
-    margin: auto;
+    margin: 5px auto;
+}
+
+#account_btn{
+    background-color: #579AFF;
+}
+
+#sb_blue, .sign_box div:first-child{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#sb_blue{
+    color: #006AFF;
+}
+
+.sign_box>input {
+    padding: 10px 3px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #757575;
+}
+
+#account_btn, #google_btn {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+#account_btn {
+    color: white;
+}
+
+#google_btn {
+    color: #626262;
+    box-shadow: 1px 1px 2px lightgray;
+    position: relative;
+}
+
+#google_btn img{
+    width: 20px;
+    position: absolute;
+    left: 10px;
+}
+
+
+.sign_box div:last-child{
+    font-size: 0.8rem;
+}
+
+.sign_box div:last-child a{
+    color: #006AFF;
+}
+
+/* Main */
+
+/* Customers Section */
+
+#customers .container {
+    text-align: center;
+}
+
+#customers_logos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    margin: 1.5rem 0;
+
+}
+
+#customers .container div:first-child{
+    padding-top: 3rem;
+}
+
+#customers_logos>img{
+    display: inline-block;
+}
+
+#customers div:first-child {
+    color: #6F7B97;
+}
+
+#customers a{
+    text-decoration: none;
+    color: #006AFF;
 }

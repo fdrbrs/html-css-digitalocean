@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/framework.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Site Header -->
@@ -46,11 +48,11 @@
                 <div class="col-lg-5">
                     <div class="sign_box">
                         <div>Deploy your app in seconds.</div>
-                        <div>Get started now.</div>
-                        <input type="email" name="" id="" placeholder="Email">
-                        <input type="password" name="" id="" placeholder="Password">
-                        <a href="">Create your account</a>
-                        <a href="">Sign up with google</a>
+                        <div id="sb_blue">Get started now.</div>
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <a href="" id="account_btn">Create your account</a>
+                        <a href="" id="google_btn"><img src="./assets/img/google-icon.png" alt=""> Sign up with google</a>
                         <div>By signing up you agree to the <a href="">Terms of Service</a></div>
 
                     </div>
@@ -65,7 +67,21 @@
     <!-- Site Main -->
     <main>
         <!-- Customers Section -->
-        <div id="customers"></div>
+        <div id="customers">
+            <div class="container">
+                <div>INNOVATIVE BUSINESSES TRUST DIGITAL OCEAN</div>
+                <div id="customers_logos">
+                    <img src="./assets/img/docker.svg" alt="">
+                    <img src="./assets/img/gitlab.svg" alt="">
+                    <img src="./assets/img/slack.svg" alt="">
+                    <img src="./assets/img/hashicorp.svg" alt="">
+                    <img src="./assets/img/hashicorp.svg" alt="">
+                    <img src="./assets/img/splunk.svg" alt="">
+                </div>
+
+                <a href="">View customer stories ></a>
+            </div>
+        </div>
         <!-- /Customers Section -->
 
         <!-- Deploy and Scale Section -->
