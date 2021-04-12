@@ -75,7 +75,7 @@ body{
 }
 
 
-/* Header */
+/* Site Header */
 
 /* Nav Bar */
 
@@ -223,7 +223,7 @@ nav>div>.col-lg-5>ul>li>a{
     color: #006AFF;
 }
 
-/* Main */
+/* Site Main */
 
 /* Common Rules */
 
@@ -498,4 +498,44 @@ nav>div>.col-lg-5>ul>li>a{
     border-radius: 5px;
     padding: 10px 15px;
     margin-top: 2rem;
+}
+
+/* Site Footer */
+
+footer .container {
+    padding-top: 3rem;
+}
+
+.rights{
+    color: #7A859D;
+    margin: 10px 0;
+}
+
+.made{
+    color: #5A6887;
+}
+
+.social_ico{
+    color: #7A859D;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.social_ico i{
+    padding-right: 5px;
+}
+
+.list_title{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.foot_list{
+    list-style: none;
+    color: #7A859D;
+}
+
+.foot_list li{
+    display: block;
+    padding: 8px 0;
 }
