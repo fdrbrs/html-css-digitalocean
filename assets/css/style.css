@@ -225,6 +225,14 @@ nav>div>.col-lg-5>ul>li>a{
 
 /* Main */
 
+/* Common Rules */
+
+.title_blue {
+    color: #031C4E;
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
 /* Customers Section */
 
 #customers .container {
@@ -264,13 +272,7 @@ nav>div>.col-lg-5>ul>li>a{
     text-align: center;
 }
 
-#deploy .container h2 {
-    color: #031C4E;
-    padding-top: 5rem;
-    font-size: 2rem;
-}
-
-#deploy .container p{
+#deploy>.container>p{
     color: #6F7B97;
     font-size: 1.3rem;
     line-height: 25px;
@@ -278,7 +280,7 @@ nav>div>.col-lg-5>ul>li>a{
 }
 
 #deploy_box{
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .deploy_list{
@@ -300,3 +302,60 @@ nav>div>.col-lg-5>ul>li>a{
     height: 200px;
 }
 
+.spec_box h3 {
+    color: #031C4E;
+    padding: 10px 0;
+}
+
+.spec_box>p{
+    width: 90%;
+    font-size: 1rem;
+    color: #6F7B97;
+}
+
+/* Designed for Developers Section */
+
+#designed .container{
+    text-align: center;
+}
+
+#designed>.container>p{
+    color: #6F7B97;
+    font-size: 1.3rem;
+    line-height: 25px;
+    padding-top: 1rem;
+}
+
+.slide img {
+    width: 100%
+}
+
+.slide_box {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.slide_box i{
+    font-size: 2.5rem;
+    color: #031C4E;
+    font-weight: 600;
+}
+
+#designed h3 {
+    color: #031C4E;
+    margin: 1rem 0 10px 0;
+}
+
+.dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #006AFF;
+    border-radius: 50%;
+    margin: 0 2px
+}
+
+.dot_full{
+    background-color: #006AFF;
+}
