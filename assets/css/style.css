@@ -143,7 +143,7 @@ nav>div>.col-lg-5>ul>li>a{
 #jumbotron>.container>.col-lg-7 p{
     width: 95%;
     color: #BBCDFF;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 25px;
 }
 
@@ -250,9 +250,53 @@ nav>div>.col-lg-5>ul>li>a{
 
 #customers div:first-child {
     color: #6F7B97;
+
 }
 
 #customers a{
     text-decoration: none;
     color: #006AFF;
 }
+
+/* Deploy and scale section */
+
+#deploy .container {
+    text-align: center;
+}
+
+#deploy .container h2 {
+    color: #031C4E;
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
+#deploy .container p{
+    color: #6F7B97;
+    font-size: 1.3rem;
+    line-height: 25px;
+    padding-top: 1rem;
+}
+
+#deploy_box{
+    margin-top: 3rem;
+}
+
+.deploy_list{
+    border-left: 2px solid #BFBFBF;
+    text-align: left;
+}
+.deploy_list ul{
+    list-style: none;
+}
+
+.deploy_list ul>li{
+    color: #6F7B97;
+    font-size: 1.3rem;
+    padding: 10px 0 10px 10px;
+}
+
+.spec_box {
+    text-align: left;
+    height: 200px;
+}
+
