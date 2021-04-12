@@ -456,6 +456,7 @@ nav>div>.col-lg-5>ul>li>a{
     color: #6F7B97;
     padding: 15px 0;
     line-height: 25px;
+    font-size: 1.2rem;
 }
 
 .author{
@@ -478,4 +479,23 @@ nav>div>.col-lg-5>ul>li>a{
 
 #love_story .container .dots{
     margin-top: 1.5rem;
+}
+
+/* Get Started Section */
+
+#get_started{
+    text-align: center;
+}
+
+#get_started h2{
+    margin-bottom: 2rem;
+}
+
+.account_btn{
+    background-color: #ffff;
+    text-decoration: none;
+    color: #006AFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 2rem;
 }
