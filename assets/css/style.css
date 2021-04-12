@@ -113,7 +113,7 @@ nav>div>.col-lg-5>ul>li>a{
     color: #172E5C;
 }
 
-.signup_button{
+nav>div>.col-lg-5>ul>li>.signup_button{
     color: #2285FD;
     border: 1px solid #2285FD;
     border-radius: 5px;
