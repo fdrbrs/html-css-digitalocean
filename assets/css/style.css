@@ -432,3 +432,50 @@ nav>div>.col-lg-5>ul>li>a{
 .test_speed{
     color: #00D7D2;
 }
+
+/* Love Story Section */
+
+#love_story{
+    text-align: center;
+}
+
+.rocker_box{
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocker_box img{
+    width: 50%;
+}
+
+.rocker_box p{
+    color: #6F7B97;
+    padding: 15px 0;
+    line-height: 25px;
+}
+
+.author{
+    color: #031C4E;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.author_subtext{
+    color: #031C4E;
+    font-size: 0.8rem;
+}
+
+.rocker_box a{
+    text-decoration: none;
+    color: #006AFF;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+}
+
+#love_story .container .dots{
+    margin-top: 1.5rem;
+}
