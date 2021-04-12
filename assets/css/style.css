@@ -42,7 +42,7 @@ main{
 
 #servers{
     height: 420px;
-    background-color:#0034B1;
+    background-image: linear-gradient(#0047C5, #001E9A);
 }
 
 #love_story{
@@ -52,7 +52,7 @@ main{
 
 #get_started{
     height:255px;
-    background-color:#0034B1;
+    background-image: linear-gradient(#0047C5, #001E9A);
 }
 
     /* Footer */
@@ -233,6 +233,12 @@ nav>div>.col-lg-5>ul>li>a{
     font-size: 2rem;
 }
 
+.title_white {
+    color: white;
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
 /* Customers Section */
 
 #customers .container {
@@ -309,7 +315,6 @@ nav>div>.col-lg-5>ul>li>a{
 
 .spec_box>p{
     width: 90%;
-    font-size: 1rem;
     color: #6F7B97;
 }
 
@@ -358,4 +363,72 @@ nav>div>.col-lg-5>ul>li>a{
 
 .dot_full{
     background-color: #006AFF;
+}
+
+/* Features Section */
+
+#features .container{
+    text-align: center;
+}
+
+.features_box {
+    margin-top: 3rem;
+}
+
+.features_box .col-lg-4 {
+    text-align: left;
+}
+
+
+.features_box .col-lg-4 h3{
+    color: #031C4E;
+    padding: 10px 0;
+}
+
+
+.features_box .col-lg-4 p{
+    color: #6F7B97;
+    padding-bottom: 10px;
+}
+
+.features_box .col-lg-4 a{
+    text-decoration: none;
+    color: #006AFF;
+}
+/* Server Tab Section */
+
+#servers {
+    text-align: center;
+}
+
+.server_box{
+    margin-top: 1rem;
+}
+
+.tab_row {
+    padding: 10px 0;
+    display: flex;
+    width: 96%;
+    margin-top: auto;
+    font-size: 0.8rem;
+}
+
+.tab_row:not(:last-child){
+    border-bottom: 1px solid white;
+}
+
+.sigla {
+    color: white;
+
+    text-align: left;
+    padding-left: 5px;
+}
+
+.location {
+    color: #B3C3E7;
+    text-align: left;
+}
+
+.test_speed{
+    color: #00D7D2;
 }
