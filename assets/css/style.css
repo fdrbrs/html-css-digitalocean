@@ -2,7 +2,7 @@
 
     /* Header */
 header {
-    height: 560px;
+    /* height: 560px; */
 }
 
 nav {
@@ -11,7 +11,7 @@ nav {
 }
 
 #jumbotron {
-    height: 495px;
+    /* height: 495px; */
     background-color: #004AFF;
 }
 
@@ -67,7 +67,6 @@ footer{
 .container{
     margin: auto;
     width: 70%;
-    font-family: ;
 }
 
 body{
@@ -84,36 +83,37 @@ nav{
     align-items: center;
 }
 
-nav>.container{
+nav>.container>.row{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Nav Bar Logo */
-nav>div>.col-lg-2>img{
+nav>div>.row>.col-lg-2>img{
     width: 150px;
 }
 
 /* Nav Bar lists */
 
-nav>div>.col-lg-5{
+nav>div>.row>.col-lg-5{
     text-align: right;
 }
 
-nav>div>.col-lg-5>ul{
+nav>div>.row>.col-lg-5>ul{
     list-style: none;
 }
-nav>div>.col-lg-5>ul>li{
+nav>div>.row>.col-lg-5>ul>li{
     display: inline-block;
     margin: 0 5px
 }
 
-nav>div>.col-lg-5>ul>li>a{
+nav>div>.row>.col-lg-5>ul>li>a{
     text-decoration: none;
     color: #172E5C;
 }
 
-nav>div>.col-lg-5>ul>li>.signup_button{
+nav>div>.row>.col-lg-5>ul>li>.signup_button{
     color: #2285FD;
     border: 1px solid #2285FD;
     border-radius: 5px;
@@ -131,20 +131,26 @@ nav>div>.col-lg-5>ul>li>.signup_button{
     align-items: center;
 }
 
-#jumbotron>.container>.col-lg-7{
+#jumbotron>.container>.row>div>h1{
     color: white;
 }
 
-#jumbotron>.container>.col-lg-7 h1{
-    font-size: 4rem;
+#jumbotron>.container>.row>div h1{
+    font-size: 3.5rem;
     width: 95%;
 }
 
-#jumbotron>.container>.col-lg-7 p{
+#jumbotron>.container>.row>div p{
     width: 95%;
     color: #BBCDFF;
     font-size: 1.3rem;
     line-height: 25px;
+}
+
+#jumbotron>.container>.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Sign Box  */
