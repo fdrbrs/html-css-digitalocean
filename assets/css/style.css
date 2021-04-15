@@ -6,7 +6,7 @@ header {
 }
 
 nav {
-    height: 65px;
+    /* height: 65px; */
     background-color: white;
 }
 
@@ -17,48 +17,48 @@ nav {
 
     /* Main */
 main{
-    height: 3585px;
+    /* height: 3585px; */
 }
 
 #customers {
-    height: 270px;
+    /* height: 270px; */
     background-color: #F3F5F9;
 }
 
 #deploy {
-    height: 700px;
+    /* height: 700px; */
     background-color: #ffff;
 }
 
 #designed{
-    height: 780px;
+    /* height: 780px; */
     background-color: #F3F5F9;
 }
 
 #features{
-    height: 440px;
+    /* height: 440px */;
     background-color: #ffff;
 }
 
 #servers{
-    height: 420px;
+    /* height: 420px */;
     background-image: linear-gradient(#0047C5, #001E9A);
 }
 
 #love_story{
-    height: 720px;
+    /* height: 720px; */
     background-color: #F3F5F9;
 }
 
 #get_started{
-    height:255px;
+    /* height:255px; */
     background-image: linear-gradient(#0047C5, #001E9A);
 }
 
     /* Footer */
 
 footer{
-    height: 520px;
+    /* height: 520px; */
     background-color:#031C4E;
 }
 
@@ -81,6 +81,10 @@ body{
 nav{
     display: flex;
     align-items: center;
+}
+
+nav>.container {
+    margin: 1rem auto;
 }
 
 nav>.container>.row{
@@ -131,6 +135,10 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
     align-items: center;
 }
 
+#jumbotron>.container{
+    margin: 3rem auto;
+}
+
 #jumbotron>.container>.row>div>h1{
     color: white;
 }
@@ -157,7 +165,6 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 .sign_box{
     background-color: #ffff;
-    height: 365px;
     border-radius: 5px;
     text-align: center;
     display: flex;
@@ -167,6 +174,10 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 .sign_box>*{
     margin: 5px 0;
+}
+
+#signbox_title_black{
+    padding-top: 2rem;
 }
 
 .sign_box>input, .sign_box>a{
@@ -223,6 +234,7 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 .sign_box div:last-child{
     font-size: 0.8rem;
+    padding-bottom: 1rem;
 }
 
 .sign_box div:last-child a{
@@ -249,6 +261,7 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 #customers .container {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 #customers_logos {
@@ -276,12 +289,14 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 #customers a{
     text-decoration: none;
     color: #006AFF;
+
 }
 
 /* Deploy and scale section */
 
 #deploy .container {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 #deploy>.container>p{
@@ -328,6 +343,7 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 #designed .container{
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 #designed>.container>p{
@@ -375,6 +391,7 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 #features .container{
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 .features_box {
@@ -405,6 +422,7 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 #servers {
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 .server_box{
@@ -443,6 +461,10 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 #love_story{
     text-align: center;
+}
+
+#love_story .container {
+    padding-bottom: 4rem;
 }
 
 .rocker_box{
@@ -493,8 +515,12 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
     text-align: center;
 }
 
-#get_started h2{
-    margin-bottom: 2rem;
+#get_started>div>h2{
+    padding-bottom: 2rem;
+}
+
+#get_started .container {
+    padding-bottom: 4rem;
 }
 
 .account_btn{
@@ -503,13 +529,12 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
     color: #006AFF;
     border-radius: 5px;
     padding: 10px 15px;
-    margin-top: 2rem;
 }
 
 /* Site Footer */
 
 footer .container {
-    padding-top: 3rem;
+    padding: 4rem 0; 
 }
 
 .rights{
