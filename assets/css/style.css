@@ -265,11 +265,6 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 /* Customers Section */
 
-#customers .container {
-    text-align: center;
-    padding-bottom: 2rem;
-}
-
 #customers_logos {
     display: flex;
     justify-content: space-around;
@@ -279,13 +274,20 @@ nav>div>.row>.col-lg-5>ul>li>.signup_button{
 
 }
 
-#customers .container div:first-child{
-    padding-top: 3rem;
-}
-
 #customers_logos>img{
     display: inline-block;
 }
+
+#customers .container {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#customers_title{
+    padding: 3rem 0 2rem 0;
+}
+
+
 
 #customers div:first-child {
     color: #6F7B97;
@@ -577,7 +579,41 @@ footer .container {
     padding: 8px 0;
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 96%;
+    }
+
+    nav>div>div> .col-lg-5{
+        display: none;
+    }
+
+    nav>.container>.row {
+        position: relative;
+    }
+
+    #burger {
+        position: absolute;
+        right: 0;
+        font-size: 1.5rem;
+    }
+
+    #jumbotron>.container>.row>div h1{
+        font-size: 2rem;
+    }
+
+    /* #customers .container div:first-child {
+        padding-top: 0;
+    } */
+    
+    #customers_logos {
+        display: inline;
+    }
+
+    .chev_left, .chev_right{
+        display: none;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .container {
